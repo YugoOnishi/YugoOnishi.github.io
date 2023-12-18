@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yugo Onishi / Yugo Onishi's website"
+title                    : "Yugo Onishi / PhD Student"
 title_separator          : "-"
 name                     : &name "Yugo Onishi"
 description              : &description "PhD student at MIT"
