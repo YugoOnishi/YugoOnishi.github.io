@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-This is Yugo Onishi's homepage. 
+![profile](../images/profile.jpg)
 
 Yugo Onishi   （大西 由吾）
 =====
@@ -19,7 +19,6 @@ Yugo Onishi   （大西 由吾）
 * Recent preprints: [arXiv](https://arxiv.org/search/?query=Onishi%2C+Yugo&searchtype=author&abstracts=show&order=-announced_date_first&size=50)
 * Publications: See [Publications](https://yugoonishi.github.io/publications/)
 
-![profile](../images/profile.jpg)
 
 Research Interests
 =====
