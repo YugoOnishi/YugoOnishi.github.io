@@ -23,9 +23,13 @@ Research experience
   * Graduate thesis theme: 
   * Supervisor: Professor Takasada Shibauchi, Kenichiro Hashimoto
 
-* April, 2020 - March, 2022: Graduate Student (Master)
+* April, 2020 - March, 2022: Graduate Student (Master course)
   * University of Tokyo
   * Supervisor: Professor Naoto Nagaosa
+
+* April, 2022 - September, 2022: Graduate Student (Doctral course)
+  * University of Tokyo
+  * Suprevisor: Professor Takahiro Morimoto
   
 Publications
 ======

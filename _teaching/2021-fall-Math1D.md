@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant for "Mathematics 1D""
+title: "Teaching Assistant for Mathematics 1D"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2021-fall-Math1D
@@ -10,11 +10,11 @@ location: "Tokyo, Japan"
 
 Teaching Assistant for an undergraduate course "Mathematics 1D" given by Prof. Motohiko Ezawa.
 
-Heading 1
+<!-- Heading 1
 ======
 
 Heading 2
 ======
 
 Heading 3
-======
+====== -->

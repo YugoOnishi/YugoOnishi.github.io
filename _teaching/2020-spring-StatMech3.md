@@ -1,5 +1,5 @@
 ---
-title: "Teachng Assistant for "Staistical Mechanics 3""
+title: "Teachng Assistant for Staistical Mechanics 3"
 collection: teaching
 type: "Undergraduate/Graduate course"
 permalink: /teaching/2020-spring-StatMech3
@@ -10,11 +10,11 @@ location: "Tokyo, Japan"
 
 Teaching Assistant for an undergraduate course "Statistical Mechanics 3" given by Prof. Naoto Nagaosa.
 
-Heading 1
+<!-- Heading 1
 ======
 
 Heading 2
 ======
 
 Heading 3
-======
+====== -->

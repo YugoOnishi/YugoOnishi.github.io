@@ -10,11 +10,11 @@ location: "Tokyo, Japan"
 
 Teaching Assistant for an undergraduate course "Mathematics 1D" given by Prof. Motohiko Ezawa.
 
-Teaching Assistant
+<!-- Teaching Assistant
 ======
 
 Heading 2
 ======
 
 Heading 3
-======
+====== -->
