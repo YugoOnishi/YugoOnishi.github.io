@@ -11,31 +11,22 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.E. in Applied Physics, University of Tokyo, 2020
+* M.E. in Applied Physics, University of Tokyo, 2022
+* PhD Student at Physics Department, Massachusetts Institute of Technology (current)
+* Current supervisor: Professor Liang Fu
 
-Work experience
+Research experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* April, 2019 - March, 2020: Graduate thesis study
+  * University of Tokyo
+  * Graduate thesis theme: 
+  * Supervisor: Professor Takasada Shibauchi, Kenichiro Hashimoto
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* April, 2020 - March, 2022: Graduate Student (Master)
+  * University of Tokyo
+  * Supervisor: Professor Naoto Nagaosa
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -56,4 +47,11 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* President of Japanese Association of MIT
+* 米国大学院学生会 説明会担当
+
+Fellowship
+======
+* January, 2021 - September, 2022: [MERIT-WINGS](https://www.merit.t.u-tokyo.ac.jp/merit/)
+* April, 2022 - September, 2022: [Research Fellowships for Young Scientists DC1](https://www.jsps.go.jp/english/e-pd/)
+* September, 2022 - August, 2024: [Funai Overseas Scholarship](https://funaifoundation.jp/)
