@@ -17,6 +17,7 @@ Yugo Onishi   （大西 由吾）
 * Office: [8-301](https://whereis.mit.edu/?go=8), MIT
 * Email: yugo0o24_at_mit.edu   (please replace _at_ with @)
 * Recent preprints: [arXiv](https://arxiv.org/search/?query=Onishi%2C+Yugo&searchtype=author&abstracts=show&order=-announced_date_first&size=50)
+* Publications: See [Publications](https://yugoonishi.github.io/publications/)
 
 ![profile](../images/profile.jpg)
 
