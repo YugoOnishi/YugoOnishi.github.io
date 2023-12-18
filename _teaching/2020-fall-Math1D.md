@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant for "Mathematics 1D""
+title: "Teaching Assistant for Mathematics 1D"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2020-fall-Math1D
