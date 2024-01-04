@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![profile](../images/profile-20240104.jpg)
+![profile](../images/profile-20240104.png)
 
 Yugo Onishi   （大西 由吾）
 =====
