@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!-- ![profile](../images/profile-20240104.png) -->
-<img align="right" style="float" height=350 src="../images/profile-20240104.png">
+<img align="right" style="float" width="30%" src="../images/profile-20240104.png">
 
 
 Profile
@@ -28,5 +28,8 @@ Topology and quantum geometry in condensed matter and its relation to responses
 
 Updates
 =====
+* 2024-01-25: Posted a new preprint ["Quantum weight"](https://arxiv.org/abs/2401.13847) to arXiv.
+* 2024-01-18: Posted a new preprint with collaborators [Probing quantum geometry through optical conductivity and magnetic circular dichroism
+](https://arxiv.org/abs/2401.09689) to arXiv.
 * 2024-01-10: Posted a new preprint ["Universal relation between energy gap and dielectric constant"](https://arxiv.org/abs/2401.04180) to arXiv.
 * 2024-01-07: Uploaded a report on [Funai Overseas Scholarship webpage](https://funaifoundation.jp/grantee.php?id=389&type=phd) (Japanese).
