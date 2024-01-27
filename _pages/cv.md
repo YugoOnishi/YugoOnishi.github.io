@@ -21,7 +21,7 @@ Research experience
 * April, 2019 - March, 2020: Graduate thesis study
   * University of Tokyo
   * Graduate thesis theme: 
-  * Supervisor: Professor Takasada Shibauchi, Kenichiro Hashimoto
+  * Supervisor: Professor Takasada Shibauchi, Professor Kenichiro Hashimoto
 
 * April, 2020 - March, 2022: Graduate Student (Master course)
   * University of Tokyo
@@ -29,7 +29,11 @@ Research experience
 
 * April, 2022 - September, 2022: Graduate Student (Doctral course)
   * University of Tokyo
-  * Suprevisor: Professor Takahiro Morimoto
+  * Supervisor: Professor Takahiro Morimoto
+
+* September, 2022 - Present: Graduate Student (PhD)
+  * Massachusetts Institute of Technology
+  * Supervisor: Professor Liang Fu
   
 Publications
 ======
@@ -52,7 +56,7 @@ Teaching
 Service and leadership
 ======
 * President of Japanese Association of MIT
-* 米国大学院学生会 説明会担当
+* [米国大学院学生会](https://gakuiryugaku.net/) 説明会担当
 
 Fellowship
 ======
