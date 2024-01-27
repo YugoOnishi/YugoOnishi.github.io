@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yugo Onishi"
+title: "Yugo Onishi / 大西 由吾"
 excerpt: "Yugo Onishi"
 author_profile: true
 redirect_from: 
