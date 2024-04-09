@@ -19,7 +19,7 @@ Profile
 * Office: [8-301](https://whereis.mit.edu/?go=8), MIT
 * Email: yugo0o24\_at\_mit.edu   (please replace \_at\_ with @)
 * Recent preprints: [arXiv](https://arxiv.org/search/?query=Onishi%2C+Yugo&searchtype=author&abstracts=show&order=-announced_date_first&size=50)
-* Publications: See [Google Scholar](https://scholar.google.com/citations?user=f1QuhscAAAAJ&hl=en), [arXiv](https://arxiv.org/search/cond-mat?searchtype=author&query=Onishi,+Y), or [Publications](https://yugoonishi.github.io/publications/)
+* Publications: See [Google Scholar](https://scholar.google.com/citations?user=f1QuhscAAAAJ&hl=en) or [Publications](https://yugoonishi.github.io/publications/)
 
 
 Research Interests
