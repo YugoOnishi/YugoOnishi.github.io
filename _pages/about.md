@@ -19,7 +19,7 @@ Profile
 * Office: [8-301](https://whereis.mit.edu/?go=8), MIT
 * Email: yugo0o24\_at\_mit.edu   (please replace \_at\_ with @)
 * Recent preprints: [arXiv](https://arxiv.org/search/?query=Onishi%2C+Yugo&searchtype=author&abstracts=show&order=-announced_date_first&size=50)
-* Publications: See [Publications](https://yugoonishi.github.io/publications/)
+* Publications: See [Google Scholar](https://scholar.google.com/citations?user=f1QuhscAAAAJ&hl=en), [arXiv](https://arxiv.org/search/cond-mat?searchtype=author&query=Onishi,+Y), or [Publications](https://yugoonishi.github.io/publications/)
 
 
 Research Interests
@@ -28,6 +28,7 @@ Topology and quantum geometry in condensed matter and its relation to responses
 
 Updates
 =====
+* 2024-04-09: Updated Publications and Talks.
 * 2024-01-25: Posted a new preprint ["Quantum weight"](https://arxiv.org/abs/2401.13847) to arXiv.
 * 2024-01-18: Posted a new preprint with collaborators ["Probing quantum geometry through optical conductivity and magnetic circular dichroism"](https://arxiv.org/abs/2401.09689) to arXiv.
 * 2024-01-10: Posted a new preprint ["Universal relation between energy gap and dielectric constant"](https://arxiv.org/abs/2401.04180) to arXiv.
