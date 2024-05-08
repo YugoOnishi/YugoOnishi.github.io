@@ -14,7 +14,7 @@ redirect_from:
 
 Profile
 =====
-* PhD Student. Condensed Matter Theory group, MIT Physics
+* PhD Candidate. Condensed Matter Theory group, MIT Physics
 * Current Supervisor: Professor Liang Fu
 * Office: [8-301](https://whereis.mit.edu/?go=8), MIT
 * Email: yugo0o24\_at\_mit.edu   (please replace \_at\_ with @)
