@@ -28,7 +28,9 @@ Topology and quantum geometry in condensed matter and its relation to responses
 
 Updates
 =====
+* 2024-07-04: Posted [a blog post on Qual](https://yugoonishi.github.io/posts/2024/7/blog-post-2/).
 * 2024-06-26: Posted a new preprint ["Topological bound on structure factor"](https://arxiv.org/abs/2406.18654) to arXiv.
+* 2024-06-20: Uploaded the 5th report on [Funai Overseas Scholarship webpage](https://funaifoundation.jp/grantee.php?id=389&type=phd) (Japanese)
 * 2024-06-05: Posted a new version of preprint ["Quantum weight"](https://arxiv.org/abs/2406.06783) to arXiv.
 * 2024-04-09: Updated Publications and Talks.
 * 2024-01-25: Posted a new preprint ["Quantum weight"](https://arxiv.org/abs/2401.13847) to arXiv.
