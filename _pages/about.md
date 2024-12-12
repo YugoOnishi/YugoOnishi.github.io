@@ -28,6 +28,7 @@ Topology and quantum geometry in condensed matter and its relation to responses
 
 Updates
 =====
+* 2024-12-11: Updated Publications. Posted a new preprint ["Geometric bound on structure factor"](https://arxiv.org/abs/2412.02656) to arXiv. A new paper ["Topological bound on structure factor"](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.206602) is published on PRL as Editor's suggestion.
 * 2024-07-04: Posted [a blog post on Qual](https://yugoonishi.github.io/posts/2024/7/blog-post-2/) (Japanese).
 * 2024-06-26: Posted a new preprint ["Topological bound on structure factor"](https://arxiv.org/abs/2406.18654) to arXiv.
 * 2024-06-20: Uploaded the 5th report on [Funai Overseas Scholarship webpage](https://funaifoundation.jp/grantee.php?id=389&type=phd) (Japanese)
