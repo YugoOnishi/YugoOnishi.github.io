@@ -15,6 +15,7 @@ redirect_from:
 Profile
 =====
 * PhD Candidate. Condensed Matter Theory group, MIT Physics
+  * ["KITP Graduate Fellow"](https://www.kitp.ucsb.edu/apply/fellowships/graduate-fellowship-program) for 2025 Fall
 * Current Supervisor: Professor Liang Fu
 * Office: [8-301](https://whereis.mit.edu/?go=8), MIT
 * Email: yugo0o24\_at\_mit.edu   (please replace \_at\_ with @)
@@ -28,6 +29,7 @@ Topology and quantum geometry in condensed matter and its relation to responses
 
 Updates
 =====
+* 2025-08-15: Updated Publications. New papers ["Quantum weight: A fundamental property of quantum many-body systems"](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.023158) and ["Geometric bound on the structure factor and a harmonic condition on band geometry"](https://journals.aps.org/prb/abstract/10.1103/8ng1-bwf6) are published. A new preprint ["Emergent gravity and gravitational lensing in quantum materials"](http://arxiv.org/abs/2506.04335) is posted to arXiv. 
 * 2024-03-06: Updated Publications. A new paper ["Theory of thermopolarization effect"](https://doi.org/10.1021/acs.nanolett.4c05870) is published on Nano Letters.
 * 2024-12-11: Updated Publications. Posted a new preprint ["Geometric bound on structure factor"](https://arxiv.org/abs/2412.02656) to arXiv. A new paper ["Topological bound on structure factor"](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.206602) is published on PRL as Editor's suggestion.
 * 2024-07-04: Posted [a blog post on Qual](https://yugoonishi.github.io/posts/2024/7/blog-post-2/) (Japanese).
