@@ -55,7 +55,7 @@ Teaching
   
 Service and leadership
 ======
-* President of Japanese Association of MIT
+* (2023 Fall-2025 Spring) President of Japanese Association of MIT
 * [The Japanese Graduate Student Association in the United States / 米国大学院学生会](https://gakuiryugaku.net/) 説明会担当
 
 Fellowship
@@ -63,3 +63,4 @@ Fellowship
 * January, 2021 - September, 2022: [MERIT-WINGS](https://www.merit.t.u-tokyo.ac.jp/merit/)
 * April, 2022 - September, 2022: [Research Fellowships for Young Scientists DC1 / 学振DC1](https://www.jsps.go.jp/english/e-pd/)
 * September, 2022 - August, 2024: [Funai Overseas Scholarship](https://funaifoundation.jp/)
+* August, 2025 - December, 2025: [KITP Graduate Fellow](https://www.kitp.ucsb.edu/apply/fellowships/graduate-fellowship-program)
