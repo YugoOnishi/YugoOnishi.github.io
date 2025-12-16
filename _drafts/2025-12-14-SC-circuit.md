@@ -1,6 +1,6 @@
 ---
 title: '固体物理屋から見た超伝導量子回路'
-date: 2024-01-07
+date: 2025-12-15
 permalink: /posts/2025/12/SC-circuit/
 tags:
   - Physics
