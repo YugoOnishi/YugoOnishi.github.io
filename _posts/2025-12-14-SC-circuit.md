@@ -7,7 +7,7 @@ tags:
   - Japanese
   - AdventCalendar2025
 ---
-この記事は、[物理学アドベントカレンダー2025](https://adventar.org/calendars/11490)15日目の記事です。一日遅れてごめんなさい。
+この記事は、[物理学アドベントカレンダー2025](https://adventar.org/calendars/11490)15日目の記事です。
 
 今年[2025年のノーベル物理学賞]((https://www.nobelprize.org/prizes/physics/2025/summary/))は「電気回路における巨視的量子トンネル効果とエネルギー量子化の発見」によりJohn Clarke（UC Berkeley）、Michel H. Devoret（Yale, UC Santa Barbara）、John M. Martinis (UC Santa Barbara)の3氏が受賞することになりました。
 
