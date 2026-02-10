@@ -29,6 +29,8 @@ Topology and quantum geometry in condensed matter and its relation to responses
 
 Updates
 =====
+* 2026-02-10: Updated Publications. New papers ["Emergent curved space and gravitational lensing in quantum materials"](https://journals.aps.org/prb/abstract/10.1103/qxnw-8q4y) and ["Giant nonlinear transport response in a magnetic semiconductor induced by electrostatic gating"](https://linkinghub.elsevier.com/retrieve/pii/S2950636025003238) are published. A new preprint ["Zero-point energy of solids from vacuum fluctuation and quantum geometric force"](https://arxiv.org/abs/2602.07116) is posted to arXiv.
+* 2026-02-10: Blog post "固体物理屋から見た超伝導量子回路" (Japanese) is updated.   
 * 2025-08-15: Updated Publications. New papers ["Quantum weight: A fundamental property of quantum many-body systems"](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.023158) and ["Geometric bound on the structure factor and a harmonic condition on band geometry"](https://journals.aps.org/prb/abstract/10.1103/8ng1-bwf6) are published. A new preprint ["Emergent gravity and gravitational lensing in quantum materials"](http://arxiv.org/abs/2506.04335) is posted to arXiv. 
 * 2024-03-06: Updated Publications. A new paper ["Theory of thermopolarization effect"](https://doi.org/10.1021/acs.nanolett.4c05870) is published on Nano Letters.
 * 2024-12-11: Updated Publications. Posted a new preprint ["Geometric bound on structure factor"](https://arxiv.org/abs/2412.02656) to arXiv. A new paper ["Topological bound on structure factor"](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.206602) is published on PRL as Editor's suggestion.
