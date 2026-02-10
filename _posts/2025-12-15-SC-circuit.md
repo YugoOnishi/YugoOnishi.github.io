@@ -9,7 +9,7 @@ tags:
 ---
 この記事は、[物理学アドベントカレンダー2025](https://adventar.org/calendars/11490)15日目の記事です。
 
-[2026/02/10 追記: 本記事執筆後、[固体物性理論と超伝導量子回路を絡めた論文](https://arxiv.org/abs/2602.07116)を書きました。超伝導量子回路を用いると、固体の量子幾何に由来する効果が直接見えるはずだという論文です。もしよければご笑覧ください。]
+[2026/02/10 追記: 本記事執筆後、[固体物性理論と超伝導量子回路を絡めた論文](https://arxiv.org/abs/2602.07116)を書きました。超伝導量子回路を用いると、固体の量子幾何に由来する効果が直接見えるはずだという論文です。もしよければご覧ください。]
 
 今年[2025年のノーベル物理学賞](https://www.nobelprize.org/prizes/physics/2025/summary/)は「電気回路における巨視的量子トンネル効果とエネルギー量子化の発見」によりJohn Clarke（UC Berkeley）、Michel H. Devoret（Yale, UC Santa Barbara）、John M. Martinis (UC Santa Barbara)の3氏が受賞することになりました。
 
