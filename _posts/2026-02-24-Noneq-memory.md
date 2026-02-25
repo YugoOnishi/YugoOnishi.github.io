@@ -10,8 +10,10 @@ tags:
 ---
 昨日2026年2月23日月曜日のニューイングランドは大変な[吹雪](https://www.cbsnews.com/boston/news/boston-blizzard-massachusetts-snow-blizzard-of-2026/)だった。今朝起きてみると、屋根のついているはずの我が家のベランダにも大量の雪が吹き込み、足を踏み入れたらしっかり沈み込む程の雪が積もっていた。月曜日のお昼には、[Chez Pierre Seminar](https://physics.mit.edu/events/chez-pierre-seminar-series/)というCondensed Matter groupによるセミナーが毎週行われるのだが、そのセミナーも明日水曜日に延期となった。
 
-延期となったセミナーはEthan Lakeによるものである。彼は3年ほど前にMITでSenthil TodadriのもとでPhDを取得後、現在はUC BerkeleyのMiller Fellowポスドクをしている。彼は、私がPhD一年目で取った授業 Theory of solids のTAを彼の卒業直前にやっていて、彼のrecitationの授業を受けたことがあり、とてもわかり易かったのが記憶に残っている。当時彼のPhD Defenseも聞きに行ったが、これまた非常にわかりやすい発表だった。一度研究会で発表を聞いたこともある。そのときは非平衡状態から平衡状態への緩和を計算のアルゴリズムだと捉えて（は？）、CSの複雑性やアルゴリズムの知見を使って緩和時間を議論する（は？）というとんでもないアイディアを発表していた（[論文](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.021034)はPRXに出ていた）。この発表もまた非常にわかりやすく、本当に感銘を受けた。もちろんすべての証明を追うのはとても私には無理だが、とにかく一年以上前に聞いたこの発表の内容をこれくらい自分で思い出せる程度には私でも理解できる発表だった。彼は、学生だった時代を私が知っている人の中で、最も独創的で面白い研究者だと思う。
+延期となったセミナーはEthan Lake[^1]によるものである。彼は3年ほど前にMITでSenthil TodadriのもとでPhDを取得後、現在はUC BerkeleyのMiller Fellowポスドクをしている。彼は、私がPhD一年目で取った授業 Theory of solids のTAを彼の卒業直前にやっていて、彼のrecitationの授業を受けたことがあり、とてもわかり易かったのが記憶に残っている。当時彼のPhD Defenseも聞きに行ったが、これまた非常にわかりやすい発表だった。一度研究会で発表を聞いたこともある。そのときは非平衡状態から平衡状態への緩和を計算のアルゴリズムだと捉えて（は？）、CSの複雑性やアルゴリズムの知見を使って緩和時間を議論する（は？）というとんでもないアイディアを発表していた（[論文](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.021034)はPRXに出ていた）。この発表もまた非常にわかりやすく、本当に感銘を受けた。もちろんすべての証明を追うのはとても私には無理だが、とにかく一年以上前に聞いたこの発表の内容をこれくらい自分で思い出せる程度には私でも理解できる発表だった。彼は、学生だった時代を私が知っている人の中で、最も独創的で面白い研究者だと思う。
 
+[^1]:[彼のWebsite](https://ethanlake.github.io/)も面白い。私のお気に入りはFunページにある"30 days of date problems
+"。
 
 今回の彼のセミナーは、通常のChez Pierreではなく、**Special** Chez Pierre Seminarである。特に今回の場合には何を意味するかというと、事実上のJob interviewと思われる。要するに、MITのCondensed matter theoryの新しいAssistant Professorを選ぶためのものである。すでにいくつかのSpecial Chez Pierre Seminarが行われており、これらの中から次のAssistant Professorが選ばれるのだろう。個人的には、Ethan Lakeが候補者に選ばれたのは至極納得の人選だと思う。
 
