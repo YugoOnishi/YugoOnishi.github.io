@@ -29,6 +29,7 @@ Topology and quantum geometry in condensed matter and its relation to responses
 
 Updates
 =====
+* 2026-07-24: Posted [a blog post](https://yugoonishi.github.io/posts/2026/07/AI-shock/) (Japanese).
 * 2026-02-24: Posted [a blog post](https://yugoonishi.github.io/posts/2026/2/Noneq-memory/) (Japanese).
 * 2026-02-10: Updated Publications. New papers ["Emergent curved space and gravitational lensing in quantum materials"](https://journals.aps.org/prb/abstract/10.1103/qxnw-8q4y) and ["Giant nonlinear transport response in a magnetic semiconductor induced by electrostatic gating"](https://linkinghub.elsevier.com/retrieve/pii/S2950636025003238) are published. A new preprint ["Zero-point energy of solids from vacuum fluctuation and quantum geometric force"](https://arxiv.org/abs/2602.07116) is posted to arXiv.
 * 2026-02-10: Blog post "固体物理屋から見た超伝導量子回路" (Japanese) is updated.   
