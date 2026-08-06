@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+gem_user_dir="$(ruby -e 'print Gem.user_dir')"
+bundle_command="${gem_user_dir}/bin/bundle"
+
+if [[ ! -x "${bundle_command}" ]]; then
+  echo "Bundler is not installed. Run: gem install --user-install bundler" >&2
+  exit 1
+fi
+
+export BUNDLE_PATH="${gem_user_dir}"
+exec "${bundle_command}" exec jekyll serve \
+  --config _config.yml,_config.dev.yml \
+  --force_polling \
+  --livereload \
+  "$@"
