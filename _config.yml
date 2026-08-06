@@ -21,7 +21,20 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "giscus" # false (default), "giscus", "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  giscus:
+    repo                 : "YugoOnishi/YugoOnishi.github.io"
+    repo_id              : "R_kgDOK64__Q"
+    category             : "Blog comments"
+    category_id          : "DIC_kwDOK64__c4DCw6N"
+    mapping              : "pathname"
+    strict               : "0"
+    reactions_enabled    : "1"
+    emit_metadata        : "0"
+    input_position       : "top"
+    theme                : "preferred_color_scheme"
+    lang                 : "ja"
+    loading              : "lazy"
   disqus:
     shortname            :
   discourse:
@@ -126,6 +139,8 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - .history
+  - .venv
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
@@ -218,7 +233,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -227,7 +242,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _portfolio
   - scope:
       path: ""

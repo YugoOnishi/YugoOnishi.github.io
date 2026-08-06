@@ -3,6 +3,35 @@
 <div class="page__comments">
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
+  {% when "giscus" %}
+    {% if site.comments.giscus.repo_id and site.comments.giscus.category_id %}
+      <h4 class="page__comments-title">{{ comments_label }}</h4>
+      <p class="small">
+        Comments are public and stored in GitHub Discussions. To comment, sign in
+        with a GitHub account; your public GitHub profile will identify your comment.
+      </p>
+      <script src="https://giscus.app/client.js"
+              data-repo="{{ site.comments.giscus.repo }}"
+              data-repo-id="{{ site.comments.giscus.repo_id }}"
+              data-category="{{ site.comments.giscus.category }}"
+              data-category-id="{{ site.comments.giscus.category_id }}"
+              data-mapping="{{ site.comments.giscus.mapping | default: 'pathname' }}"
+              data-strict="{{ site.comments.giscus.strict | default: '0' }}"
+              data-reactions-enabled="{{ site.comments.giscus.reactions_enabled | default: '1' }}"
+              data-emit-metadata="{{ site.comments.giscus.emit_metadata | default: '0' }}"
+              data-input-position="{{ site.comments.giscus.input_position | default: 'top' }}"
+              data-theme="{{ site.comments.giscus.theme | default: 'light' }}"
+              data-lang="{{ site.comments.giscus.lang | default: 'en' }}"
+              data-loading="{{ site.comments.giscus.loading | default: 'lazy' }}"
+              crossorigin="anonymous"
+              async>
+      </script>
+    {% elsif jekyll.environment == "development" %}
+      <p class="notice--warning">
+        Giscus is not active yet. Add the repository and category IDs to
+        <code>comments.giscus</code> in <code>_config.yml</code>.
+      </p>
+    {% endif %}
   {% when "disqus" %}
     <h4 class="page__comments-title">{{ comments_label }}</h4>
     <section id="disqus_thread"></section>
