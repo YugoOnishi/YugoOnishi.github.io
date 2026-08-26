@@ -13,8 +13,7 @@ Education
 ======
 * B.E. in Applied Physics, University of Tokyo, 2020
 * M.E. in Applied Physics, University of Tokyo, 2022
-* PhD Student at Physics Department, Massachusetts Institute of Technology (current)
-* Current supervisor: Professor Liang Fu
+* PhD in Physics, Massachusetts Institute of Technology, 2026
 
 Research experience
 ======
@@ -31,9 +30,15 @@ Research experience
   * University of Tokyo
   * Supervisor: Professor Takahiro Morimoto
 
-* September, 2022 - Present: Graduate Student (PhD)
+* September, 2022 - July, 2026: Graduate Student (PhD)
   * Massachusetts Institute of Technology
   * Supervisor: Professor Liang Fu
+
+* August, 2025 - December, 2025: KITP Graduate Fellow
+  * Kavli Institute for Theoretical Physics, UC Santa Barbara
+  * Faculty mentor: Professor Leon Balents
+
+* September, 2026 - Present: Leinweber Postodoctoral Fellow at Stanford University
   
 Publications
 ======
@@ -64,3 +69,4 @@ Fellowship
 * April, 2022 - September, 2022: [Research Fellowships for Young Scientists DC1 / 学振DC1](https://www.jsps.go.jp/english/e-pd/)
 * September, 2022 - August, 2024: [Funai Overseas Scholarship](https://funaifoundation.jp/)
 * August, 2025 - December, 2025: [KITP Graduate Fellow](https://www.kitp.ucsb.edu/apply/fellowships/graduate-fellowship-program)
+* September, 2026 - August, 2029: Leinweber Fellowship
