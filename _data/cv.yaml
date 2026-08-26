@@ -1,0 +1,138 @@
+# Canonical structured data for the website CV and printable CV.
+#
+# Publications, talks, and teaching are intentionally stored in their existing
+# Jekyll collections: _publications/, _talks/, and _teaching/. This file contains
+# the remaining CV information so that each fact has one authoritative source.
+
+person:
+  name: Yugo Onishi
+  website:
+    label: YugoOnishi.github.io
+    url: https://YugoOnishi.github.io
+  google_scholar:
+    label: Google Scholar
+    url: https://scholar.google.com/citations?hl=en&tzom=300&user=f1QuhscAAAAJ
+  github:
+    label: YugoOnishi
+    url: https://github.com/YugoOnishi
+  # Add an address when you want it displayed in the web and PDF versions.
+  email: yugo0o24@stanford.edu
+
+current_position:
+  title: Leinweber Postdoctoral Fellow
+  institution: Stanford University
+  start: 2026-09
+  end: present
+
+appointments:
+  - title: Leinweber Postdoctoral Fellow
+    institution: Stanford University
+    start: 2026-09
+    end: present
+
+  - title: KITP Graduate Fellow
+    institution: Kavli Institute for Theoretical Physics
+    organization: University of California, Santa Barbara
+    mentor: Leon Balents
+    start: 2025-08
+    end: 2025-12
+
+research_experience:
+  - title: PhD Researcher
+    institution: Massachusetts Institute of Technology
+    advisor: Liang Fu
+    start: 2022-09
+    end: 2026-07
+
+  - title: Doctoral Student
+    institution: University of Tokyo
+    advisor: Takahiro Morimoto
+    start: 2022-04
+    end: 2022-09
+
+  - title: Master's Researcher
+    institution: University of Tokyo
+    advisor: Naoto Nagaosa
+    start: 2020-04
+    end: 2022-03
+
+  - title: Undergraduate Researcher
+    institution: University of Tokyo
+    advisors:
+      - Takasada Shibauchi
+      - Kenichiro Hashimoto
+    start: 2019-04
+    end: 2020-03
+
+education:
+  - degree: PhD in Physics
+    institution: Massachusetts Institute of Technology
+    year: 2026
+    advisor: Liang Fu
+
+  - degree: ME in Applied Physics
+    institution: University of Tokyo
+    year: 2022
+    advisor: Naoto Nagaosa
+
+  - degree: BE in Applied Physics
+    institution: University of Tokyo
+    year: 2020
+    advisor: Takasada Shibauchi, Kenichiro Hashimoto
+
+honors_and_awards:
+  - name: Andrew M. Lockett III Memorial Fund Award
+    year: 2025
+    awarded_by: Department of Physics, Massachusetts Institute of Technology
+
+  - name: Dean's Award
+    year: 2020
+    awarded_by: School of Engineering, University of Tokyo
+
+service:
+  - role: President
+    organization: Japanese Association of MIT
+    start: 2023-09
+    end: 2025-05
+
+  - role: Information-session contributor
+    organization: Japanese Graduate Student Association in the United States
+    url: https://gakuiryugaku.net/
+    # The dates were not specified in the original CV.
+    start: 2023-04
+    end: 2026-03
+
+fellowships:
+  - name: Leinweber Fellowship
+    start: 2026-09
+    end: 2029-08
+
+  - name: KITP Graduate Fellowship
+    organization: Kavli Institute for Theoretical Physics
+    url: https://www.kitp.ucsb.edu/apply/fellowships/graduate-fellowship-program
+    start: 2025-08
+    end: 2025-12
+
+  - name: Funai Overseas Scholarship
+    url: https://funaifoundation.jp/
+    start: 2022-09
+    end: 2024-08
+
+  - name: JSPS Research Fellowship for Young Scientists (DC1)
+    url: https://www.jsps.go.jp/english/e-pd/
+    start: 2022-04
+    end: 2022-09
+
+  - name: MERIT-WINGS
+    url: https://www.merit.t.u-tokyo.ac.jp/merit/
+    start: 2021-01
+    end: 2022-09
+
+collections:
+  publications: _publications
+  talks: _talks
+  teaching: _teaching
+
+pdf:
+  filename: Yugo_Onishi_CV.pdf
+  updated: 2026-08

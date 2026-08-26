@@ -7,66 +7,65 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+{% assign cv = site.data.cv %}
+
+{% if cv.pdf.filename %}
+[Download CV as PDF]({{ '/output/pdf/' | append: cv.pdf.filename | relative_url }})
+{% endif %}
 
 Education
 ======
-* B.E. in Applied Physics, University of Tokyo, 2020
-* M.E. in Applied Physics, University of Tokyo, 2022
-* PhD in Physics, Massachusetts Institute of Technology, 2026
+{% for item in cv.education %}
+* **{{ item.degree }}**, {{ item.institution }}, {{ item.year }}
+  {% if item.advisor %}* Advisor: {{ item.advisor }}{% endif %}
+{% endfor %}
 
-Research experience
+Appointments and research experience
 ======
-* April, 2019 - March, 2020: Graduate thesis study
-  * University of Tokyo
-  * Graduate thesis theme: 
-  * Supervisor: Professor Takasada Shibauchi, Professor Kenichiro Hashimoto
+{% for item in cv.appointments %}
+* **{{ item.start | date: "%B %Y" }} - {% if item.end == "present" %}Present{% else %}{{ item.end | date: "%B %Y" }}{% endif %}: {{ item.title }}**
+  * {{ item.institution }}{% if item.organization %}, {{ item.organization }}{% endif %}
+  {% if item.mentor %}* Faculty mentor: Professor {{ item.mentor }}{% endif %}
+{% endfor %}
+{% for item in cv.research_experience %}
+* **{{ item.start | date: "%B %Y" }} - {{ item.end | date: "%B %Y" }}: {{ item.title }}**
+  * {{ item.institution }}
+  {% if item.advisor %}* Advisor: Professor {{ item.advisor }}{% endif %}
+  {% if item.advisors %}* Advisors: {% for advisor in item.advisors %}Professor {{ advisor }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+{% endfor %}
 
-* April, 2020 - March, 2022: Graduate Student (Master course)
-  * University of Tokyo
-  * Supervisor: Professor Naoto Nagaosa
-
-* April, 2022 - September, 2022: Graduate Student (Doctral course)
-  * University of Tokyo
-  * Supervisor: Professor Takahiro Morimoto
-
-* September, 2022 - July, 2026: Graduate Student (PhD)
-  * Massachusetts Institute of Technology
-  * Supervisor: Professor Liang Fu
-
-* August, 2025 - December, 2025: KITP Graduate Fellow
-  * Kavli Institute for Theoretical Physics, UC Santa Barbara
-  * Faculty mentor: Professor Leon Balents
-
-* September, 2026 - Present: Leinweber Postodoctoral Fellow at Stanford University
-  
-Publications
+Honors and awards
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks and Presentations
+{% for item in cv.honors_and_awards %}
+* **{{ item.name }} ({{ item.year }})**: Awarded by {{ item.awarded_by }}
+{% endfor %}
+
+Fellowships and scholarships
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+{% for item in cv.fellowships %}
+* **{{ item.start | date: "%B %Y" }} - {% if item.end == "present" %}Present{% else %}{{ item.end | date: "%B %Y" }}{% endif %}:** {% if item.url %}[{{ item.name }}]({{ item.url }}){% else %}{{ item.name }}{% endif %}{% if item.organization %}, {{ item.organization }}{% endif %}
+{% endfor %}
+
 Service and leadership
 ======
-* (2023 Fall-2025 Spring) President of Japanese Association of MIT
-* [The Japanese Graduate Student Association in the United States / 米国大学院学生会](https://gakuiryugaku.net/) 説明会担当
+{% for item in cv.service %}
+* {% if item.start %}**{{ item.start | date: "%B %Y" }} - {% if item.end == "present" %}Present{% else %}{{ item.end | date: "%B %Y" }}{% endif %}:** {% endif %}{{ item.role }}, {% if item.url %}[{{ item.organization }}]({{ item.url }}){% else %}{{ item.organization }}{% endif %}
+{% endfor %}
 
-Fellowship
+Publications
 ======
-* January, 2021 - September, 2022: [MERIT-WINGS](https://www.merit.t.u-tokyo.ac.jp/merit/)
-* April, 2022 - September, 2022: [Research Fellowships for Young Scientists DC1 / 学振DC1](https://www.jsps.go.jp/english/e-pd/)
-* September, 2022 - August, 2024: [Funai Overseas Scholarship](https://funaifoundation.jp/)
-* August, 2025 - December, 2025: [KITP Graduate Fellow](https://www.kitp.ucsb.edu/apply/fellowships/graduate-fellowship-program)
-* September, 2026 - August, 2029: Leinweber Fellowship
+<ul>{% for post in site.publications %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+Talks and presentations
+======
+<ul>{% for post in site.talks %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
+
+Teaching
+======
+<ul>{% for post in site.teaching %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
