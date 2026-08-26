@@ -32,6 +32,105 @@ analytics, uses the localhost URL, and emits expanded CSS for easier debugging.
 It uses polling for file changes so it also works when the Linux inotify limit
 has already been reached by other applications.
 
+## Updating the CV
+
+The website CV and printable PDF share the same source data. Do not enter the
+same CV item directly in `_pages/cv.md` or `scripts/build_cv.py`; those files are
+renderers and normally do not need to be edited when the CV content changes.
+
+CV information is stored in these locations:
+
+- `_data/cv.yaml`: contact details, appointments, research experience,
+  education, honors and awards, fellowships, and service.
+- `_publications/`: one Markdown file per publication.
+- `_talks/`: one Markdown file per talk or presentation.
+- `_teaching/`: one Markdown file per teaching entry.
+
+### Core information
+
+Edit `_data/cv.yaml` to update an appointment, award, fellowship, service role,
+degree, advisor, email address, homepage, or Google Scholar link. Preserve the
+existing YAML indentation and use `YYYY-MM` for month-level dates. For example:
+
+```yaml
+appointments:
+  - title: Leinweber Postdoctoral Fellow
+    institution: Stanford University
+    start: 2026-09
+    end: present
+
+honors_and_awards:
+  - name: Example Award
+    year: 2026
+    awarded_by: Example Department, Example University
+```
+
+Update `pdf.updated` in the same file whenever the CV is revised:
+
+```yaml
+pdf:
+  filename: Yugo_Onishi_CV.pdf
+  updated: 2026-08
+```
+
+### Publications
+
+Add a Markdown file under `_publications/` using an existing publication file
+as a template. Its front matter should provide at least `title`, `collection`,
+`date`, `venue`, and `citation`:
+
+```yaml
+---
+title: "Paper title"
+collection: publications
+date: 2026-01-01
+venue: "Journal name"
+citation: 'Author list, "Paper title." Journal name, 2026.'
+---
+```
+
+The publication date controls its position in the PDF. The scripts in
+`markdown_generator/` may also be used when importing publications from the
+BibTeX bibliography instead of creating files manually.
+
+### Talks and teaching
+
+Add a Markdown file under `_talks/` for each presentation. Use an existing talk
+as a template and provide `title`, `collection: talks`, `type`, `venue`, `date`,
+and `location`. Similarly, add teaching records under `_teaching/` with
+`collection: teaching`. Dates control reverse-chronological ordering.
+
+```yaml
+---
+title: "Talk title"
+collection: talks
+type: "Invited talk"
+venue: "Conference or institution"
+date: 2026-05-01
+location: "City, Country"
+---
+```
+
+### Generate and publish
+
+After changing any CV source file, rebuild the PDF from the repository root:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\build_cv.py
+```
+
+This writes `output/pdf/Yugo_Onishi_CV.pdf`. Open the generated PDF and check
+the page breaks before committing it. The website CV is rendered by Jekyll from
+the same data and collections when GitHub Pages builds the site.
+
+Commit the source changes and generated PDF together:
+
+```powershell
+git add _data/cv.yaml _publications _talks _teaching output/pdf/Yugo_Onishi_CV.pdf
+git commit -m "Update CV"
+git push
+```
+
 # Changelog -- bugfixes and enhancements
 
 There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 

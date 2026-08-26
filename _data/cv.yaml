@@ -4,6 +4,10 @@
 # Jekyll collections: _publications/, _talks/, and _teaching/. This file contains
 # the remaining CV information so that each fact has one authoritative source.
 
+####################### IMPORTANT NOTE #######################
+# Make sure to update the `pdf.updated` field when you update this file, so that the PDF version of the CV is regenerated. 
+##############################################################
+
 person:
   name: Yugo Onishi
   website:
