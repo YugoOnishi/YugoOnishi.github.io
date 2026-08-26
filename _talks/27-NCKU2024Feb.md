@@ -2,9 +2,9 @@
 title: "Quantum geometry, Optical property, and Energy gap"
 collection: talks
 type: "Seminar"
-permalink: /talks/2024-02-27-NCKU2024Feb
+permalink: /talks/2024/2/27-NCKU2024Feb
 venue: "National Cheng Kung University"
-date: 2024-02-27
+date: 2024/2/27
 location: "Tainan, Taiwan"
 ---
 
