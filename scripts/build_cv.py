@@ -97,6 +97,13 @@ def joined_detail(*parts) -> str:
     return " | ".join(clean(str(part)) for part in parts if part)
 
 
+def contact_link(label: str, url: str) -> str:
+    """Create a safe, understated ReportLab hyperlink for the header."""
+    safe_label = clean(label)
+    safe_url = html.escape(url, quote=True)
+    return f'<link href="{safe_url}" color="#5D6872"><u>{safe_label}</u></link>'
+
+
 NAME = ParagraphStyle("Name", fontName="Helvetica-Bold", fontSize=25, leading=28,
                       textColor=NAVY, alignment=TA_CENTER, spaceAfter=4)
 CONTACT = ParagraphStyle("Contact", fontName="Helvetica", fontSize=8.5, leading=12,
@@ -194,13 +201,16 @@ def build():
     position = CV_DATA["current_position"]
     updated = str(CV_DATA["pdf"]["updated"])
     position_prefix = "Incoming " if str(position["start"])[:7] > updated[:7] else ""
-    contact_parts = [person["website"]["label"], person["google_scholar"]["label"]]
+    contact_parts = [
+        contact_link(person["website"]["label"], person["website"]["url"]),
+        contact_link(person["google_scholar"]["label"], person["google_scholar"]["url"]),
+    ]
     if person.get("email"):
-        contact_parts.insert(0, person["email"])
+        contact_parts.insert(0, contact_link(person["email"], f"mailto:{person['email']}"))
     story = [
         Paragraph(clean(person["name"]).upper(), NAME),
         Paragraph(clean(f"{position_prefix}{position['title']}, {position['institution']}"), CONTACT),
-        Paragraph(" &nbsp;&nbsp;|&nbsp;&nbsp; ".join(clean(x) for x in contact_parts), CONTACT),
+        Paragraph(" &nbsp;&nbsp;|&nbsp;&nbsp; ".join(contact_parts), CONTACT),
         Spacer(1, 8),
     ]
     story += section("Appointments & Research Experience")

@@ -9,9 +9,12 @@ redirect_from:
 
 {% assign cv = site.data.cv %}
 
-{% if cv.pdf.filename %}
+[{{ cv.person.website.label }}]({{ cv.person.website.url }}) &nbsp;|&nbsp;
+[{{ cv.person.google_scholar.label }}]({{ cv.person.google_scholar.url }})
+
+<!-- {% if cv.pdf.filename %}
 [Download CV as PDF]({{ '/output/pdf/' | append: cv.pdf.filename | relative_url }})
-{% endif %}
+{% endif %} -->
 
 Education
 ======
