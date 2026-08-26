@@ -1,2 +1,4 @@
 _site/
 .history
+.venv/
+tmp/pdfs/
