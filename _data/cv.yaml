@@ -42,7 +42,7 @@ appointments:
     end: 2025-12
 
 research_experience:
-  - title: PhD Researcher
+  - title: PhD Student
     institution: Massachusetts Institute of Technology
     advisor: Liang Fu
     start: 2022-09
@@ -54,13 +54,13 @@ research_experience:
     start: 2022-04
     end: 2022-09
 
-  - title: Master's Researcher
+  - title: Master's Student
     institution: University of Tokyo
     advisor: Naoto Nagaosa
     start: 2020-04
     end: 2022-03
 
-  - title: Undergraduate Researcher
+  - title: Undergraduate Student
     institution: University of Tokyo
     advisors:
       - Takasada Shibauchi
@@ -108,6 +108,7 @@ service:
 
 fellowships:
   - name: Leinweber Fellowship
+    organization: Leinweber Center for Theoretical Physics, Stanford University
     start: 2026-09
     end: 2029-08
 
@@ -117,17 +118,26 @@ fellowships:
     start: 2025-08
     end: 2025-12
 
+  - name: JASSO Graduate Scholarship for Degree Seeking Students
+    organization: Japan Student Services Organization
+    url: https://www.jasso.go.jp/ryugaku/scholarship_a/daigakuin/index.html
+    start: 2025-09
+    end: 2026-07
+
   - name: Funai Overseas Scholarship
+    organization: Funai Foundation for Information Technology
     url: https://funaifoundation.jp/
     start: 2022-09
     end: 2024-08
 
   - name: JSPS Research Fellowship for Young Scientists (DC1)
+    organization: Japan Society for the Promotion of Science
     url: https://www.jsps.go.jp/english/e-pd/
     start: 2022-04
     end: 2022-09
 
   - name: MERIT-WINGS
+    organization: University of Tokyo
     url: https://www.merit.t.u-tokyo.ac.jp/merit/
     start: 2021-01
     end: 2022-09

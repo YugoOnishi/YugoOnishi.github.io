@@ -15,9 +15,6 @@ redirect_from:
 Profile
 =====
 * Leinweber Postdoctoral Fellow at Stanford University
-<!-- * PhD Candidate. Condensed Matter Theory group, MIT Physics -->
-  <!-- * [KITP Graduate Fellow](https://www.kitp.ucsb.edu/apply/fellowships/graduate-fellowship-program) for 2025 Fall
-* Current Supervisor: Professor Liang Fu -->
 * Office: Room 328 at [McCullough Building](https://maps.app.goo.gl/Gx2T4dv2PHnHGTBQA), Stanford Univesity
 * Email: yugo0o24\_at\_stanford.edu   (please replace \_at\_ with @)
 * Recent preprints: [arXiv](https://arxiv.org/search/cond-mat?searchtype=author&query=Onishi,+Y)
