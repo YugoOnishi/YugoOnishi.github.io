@@ -1,0 +1,7 @@
+{% assign updates = site.data.updates | sort: "date" | reverse %}
+{% assign update_limit = include.limit | default: updates.size %}
+<ul class="updates">
+  {% for update in updates limit:update_limit %}
+    <li><time datetime="{{ update.date }}">{{ update.date }}</time>: {{ update.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {% endfor %}
+</ul>

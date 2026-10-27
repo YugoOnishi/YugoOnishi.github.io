@@ -27,19 +27,6 @@ Topology and quantum geometry in condensed matter and its relation to responses
 
 Updates
 =====
-* 2026-07-24: Posted [a blog post](https://yugoonishi.github.io/posts/2026/07/AI-shock/) (Japanese).
-* 2026-02-24: Posted [a blog post](https://yugoonishi.github.io/posts/2026/2/Noneq-memory/) (Japanese).
-* 2026-02-10: Updated Publications. New papers ["Emergent curved space and gravitational lensing in quantum materials"](https://journals.aps.org/prb/abstract/10.1103/qxnw-8q4y) and ["Giant nonlinear transport response in a magnetic semiconductor induced by electrostatic gating"](https://linkinghub.elsevier.com/retrieve/pii/S2950636025003238) are published. A new preprint ["Zero-point energy of solids from vacuum fluctuation and quantum geometric force"](https://arxiv.org/abs/2602.07116) is posted to arXiv.
-* 2026-02-10: Blog post "固体物理屋から見た超伝導量子回路" (Japanese) is updated.   
-* 2025-08-15: Updated Publications. New papers ["Quantum weight: A fundamental property of quantum many-body systems"](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.023158) and ["Geometric bound on the structure factor and a harmonic condition on band geometry"](https://journals.aps.org/prb/abstract/10.1103/8ng1-bwf6) are published. A new preprint ["Emergent gravity and gravitational lensing in quantum materials"](http://arxiv.org/abs/2506.04335) is posted to arXiv. 
-* 2024-03-06: Updated Publications. A new paper ["Theory of thermopolarization effect"](https://doi.org/10.1021/acs.nanolett.4c05870) is published on Nano Letters.
-* 2024-12-11: Updated Publications. Posted a new preprint ["Geometric bound on structure factor"](https://arxiv.org/abs/2412.02656) to arXiv. A new paper ["Topological bound on structure factor"](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.206602) is published on PRL as Editor's suggestion.
-* 2024-07-04: Posted [a blog post on Qual](https://yugoonishi.github.io/posts/2024/7/blog-post-2/) (Japanese).
-* 2024-06-26: Posted a new preprint ["Topological bound on structure factor"](https://arxiv.org/abs/2406.18654) to arXiv.
-* 2024-06-20: Uploaded the 5th report on [Funai Overseas Scholarship webpage](https://funaifoundation.jp/grantee.php?id=389&type=phd) (Japanese)
-* 2024-06-05: Posted a new version of preprint ["Quantum weight"](https://arxiv.org/abs/2406.06783) to arXiv.
-* 2024-04-09: Updated Publications and Talks.
-* 2024-01-25: Posted a new preprint ["Quantum weight"](https://arxiv.org/abs/2401.13847) to arXiv.
-* 2024-01-18: Posted a new preprint with collaborators ["Probing quantum geometry through optical conductivity and magnetic circular dichroism"](https://arxiv.org/abs/2401.09689) to arXiv.
-* 2024-01-10: Posted a new preprint ["Universal relation between energy gap and dielectric constant"](https://arxiv.org/abs/2401.04180) to arXiv.
-* 2024-01-07: Uploaded a report on [Funai Overseas Scholarship webpage](https://funaifoundation.jp/grantee.php?id=389&type=phd) (Japanese).
+{% include updates.html limit=5 %}
+
+[View all updates]({{ "/updates/" | relative_url }})
