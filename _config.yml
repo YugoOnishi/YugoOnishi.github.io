@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yugo Onishi / PhD Student"
+title                    : "Yugo Onishi / Postdoc"
 title_separator          : "-"
 name                     : &name "Yugo Onishi"
-description              : &description "PhD student at MIT"
+description              : &description "Leinweber Postdoctoral Fellow at Stanford University"
 url                      : https://YugoOnishi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "YugoOnishi.github.io"
@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "Yugo Onishi"
   avatar           : "profile-square-20240104.png"
-  bio              : "PhD student at MIT"
-  location         : "Boston, Massachusetts"
+  bio              : "Leinweber Postdoctoral Fellow at Stanford University"
+  location         : "Stanford, California"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&tzom=300&user=f1QuhscAAAAJ"
